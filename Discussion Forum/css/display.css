@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+    background:url("../images/display.jpg") fixed no-repeat;
+    background-size:cover;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    color: saddlebrown;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(14, 14, 133);
+    top:10%;
+    font-size:60px;
+    display: block;
+    
+}
+
+
+.tab table, th, td{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    width: 70%;
+    padding: 10px;
+}
+.tab th{
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+
+}
+.tab td{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+.tab td a:hover{
+    background-color: greenyellow;
+}
+.tab td a{
+    text-decoration: none;
+}
+
+.home p input[type=submit]{
+    background-color: #e96710;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+

@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding:0;
+    background:url("../images/reply.jpg") fixed no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+.reply{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(4, 4, 49);
+    top:5%;
+    font-size:60px;
+    display: block;
+    
+}
+.reply h1{
+    text-align: center;
+    color: rgb(53, 13, 163);
+    top:10%;
+    font-size:30px;
+    display: block;
+}
+
+.reply p{
+    text-align: center;
+    color:rgb(58, 14, 14);
+    font-size:20px;
+    font-style: bold;
+}
+
+.reply button{
+    background-color: #ad0f3e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.home p input[type=submit]{
+    background-color: #e96710;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+}

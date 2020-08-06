@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+<title>Add a Topic</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<link rel="stylesheet" href="css/topic.css">
+</head>
+<body>
+ <h1>Q2A Discussion Forum</h1>   
+
+<form method="POST" action="Topic.php" class="Ask">
+<div class="topic">
+ <h1>Add a Topic</h1> 
+<p><strong>Topic Title:</strong><br>
+<input type="text" name="Topic_Title" size=40 maxlength=150 style="background:none">
+<p><strong>Post Text:</strong><br>
+<textarea name="post_text" rows=8 cols=40 wrap=virtual style="background:none"></textarea>
+<p><input type="submit" name="submit" value="Add Topic"></p>
+</p>
+</div>
+</form>
+<form method="POST" action="profile.php" class="home">
+<p><input type="submit" name="Home"  value="Return Home"></p>
+</form>
+</body>
+</html>
+

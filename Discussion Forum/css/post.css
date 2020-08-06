@@ -1,0 +1,64 @@
+body{
+    margin-left:100px;
+    padding:0;
+    background:url("../images/post.jpg") fixed no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+.List h1{
+    text-align: center;
+    color: rgb(14, 14, 133);
+    top:10%;
+    font-size:60px;
+    display: block;
+    
+}
+ .List h2 {
+    text-align: center;
+    color: rgb(165, 12, 101);
+    top:30%;
+    font-size:50px;
+    display: block;
+ }
+
+ 
+.List table, th, td{
+    border: none;
+    width: 70%;
+    padding: 10px;
+} 
+.List th{
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+
+}
+.List td{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+.List td a:hover{
+    background-color: greenyellow;
+}
+.List td a{
+    text-decoration: none;
+}
+
+ .List p{
+    text-align:center;
+    color:black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .home p input[type=submit]{
+    background-color: #e96710;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+}
