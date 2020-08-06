@@ -12,7 +12,7 @@ Group Members:
 
 Languages Used:
 
-1)HTML
-2)CSS
-3)PHP
-4)MY SQL
+1) HTML
+2) CSS
+3) PHP
+4) MY SQL
